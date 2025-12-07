@@ -1,0 +1,15 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 2024,
+      "height": 1200,
+      "fitHeight": true,
+      "fitWidth": false
+    },
+    "highQuality": false
+  },
+  "script": {
+    "preserveSymlinks": true
+  }
+}

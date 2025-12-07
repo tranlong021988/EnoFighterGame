@@ -1,0 +1,1195 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-10.cconb",
+    "__original-animation-11.cconb",
+    "__original-animation-12.cconb",
+    "__original-animation-13.cconb",
+    "__original-animation-14.cconb",
+    "__original-animation-15.cconb",
+    "__original-animation-16.cconb",
+    "__original-animation-17.cconb",
+    "__original-animation-18.cconb",
+    "__original-animation-2.cconb",
+    "__original-animation-3.cconb",
+    "__original-animation-4.cconb",
+    "__original-animation-5.cconb",
+    "__original-animation-6.cconb",
+    "__original-animation-7.cconb",
+    "__original-animation-8.cconb",
+    "__original-animation-9.cconb"
+  ],
+  "subMetas": {
+    "21054": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@21054",
+      "displayName": "",
+      "id": "21054",
+      "name": "Block-Right.animation",
+      "userData": {
+        "gltfIndex": 6,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "42867": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@42867",
+      "displayName": "",
+      "id": "42867",
+      "name": "Dodge-Back.animation",
+      "userData": {
+        "gltfIndex": 11,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "62756": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@62756",
+      "displayName": "",
+      "id": "62756",
+      "name": "UnnamedSkeleton-5.skeleton",
+      "userData": {
+        "gltfIndex": 5,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85200": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@85200",
+      "displayName": "",
+      "id": "85200",
+      "name": "Hit-Hook-Right.animation",
+      "userData": {
+        "gltfIndex": 18,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "91732": {
+      "importer": "gltf-scene",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@91732",
+      "displayName": "",
+      "id": "91732",
+      "name": "Fighter-Animation.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41ac8": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@41ac8",
+      "displayName": "",
+      "id": "41ac8",
+      "name": "Cube.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1786
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6e33": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@c6e33",
+      "displayName": "",
+      "id": "c6e33",
+      "name": "Cube.002.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 216
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed341": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@ed341",
+      "displayName": "",
+      "id": "ed341",
+      "name": "Sphere.001.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "17dd0": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@17dd0",
+      "displayName": "",
+      "id": "17dd0",
+      "name": "Cube.019.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 324
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97b51": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@97b51",
+      "displayName": "",
+      "id": "97b51",
+      "name": "Cube.003.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 84
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fd4a2": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@fd4a2",
+      "displayName": "",
+      "id": "fd4a2",
+      "name": "Cube.004.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 234
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bdd91": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@bdd91",
+      "displayName": "",
+      "id": "bdd91",
+      "name": "Cylinder.002.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 600
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "80a27": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@80a27",
+      "displayName": "",
+      "id": "80a27",
+      "name": "Hook-Left.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2853a": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@2853a",
+      "displayName": "",
+      "id": "2853a",
+      "name": "Hook-Right.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "cd546": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@cd546",
+      "displayName": "",
+      "id": "cd546",
+      "name": "Cross.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "14fd8": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@14fd8",
+      "displayName": "",
+      "id": "14fd8",
+      "name": "Jab.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "c2696": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@c2696",
+      "displayName": "",
+      "id": "c2696",
+      "name": "Idle.animation",
+      "userData": {
+        "gltfIndex": 4,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.2833333015441895
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "607bc": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@607bc",
+      "displayName": "",
+      "id": "607bc",
+      "name": "Upercut.animation",
+      "userData": {
+        "gltfIndex": 5,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "61b96": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@61b96",
+      "displayName": "",
+      "id": "61b96",
+      "name": "Block-Center.animation",
+      "userData": {
+        "gltfIndex": 7,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "cca92": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@cca92",
+      "displayName": "",
+      "id": "cca92",
+      "name": "Block-Left.animation",
+      "userData": {
+        "gltfIndex": 8,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "426e6": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@426e6",
+      "displayName": "",
+      "id": "426e6",
+      "name": "Pivot-Right.animation",
+      "userData": {
+        "gltfIndex": 9,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.2166666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2afb5": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@2afb5",
+      "displayName": "",
+      "id": "2afb5",
+      "name": "Pivot-Left.animation",
+      "userData": {
+        "gltfIndex": 10,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.25
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e3cbe": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@e3cbe",
+      "displayName": "",
+      "id": "e3cbe",
+      "name": "Dodge-Left.animation",
+      "userData": {
+        "gltfIndex": 12,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1d289": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@1d289",
+      "displayName": "",
+      "id": "1d289",
+      "name": "Dodge-Right.animation",
+      "userData": {
+        "gltfIndex": 13,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a50b0": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@a50b0",
+      "displayName": "",
+      "id": "a50b0",
+      "name": "Hit-Jab.animation",
+      "userData": {
+        "gltfIndex": 14,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "ResetCombatStateToIdle",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "AnimEnd",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "048cf": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@048cf",
+      "displayName": "",
+      "id": "048cf",
+      "name": "Hit-Cross.animation",
+      "userData": {
+        "gltfIndex": 15,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6ab9e": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@6ab9e",
+      "displayName": "",
+      "id": "6ab9e",
+      "name": "Hit-Upercut.animation",
+      "userData": {
+        "gltfIndex": 16,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "34cae": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@34cae",
+      "displayName": "",
+      "id": "34cae",
+      "name": "Hit-Hook-Left.animation",
+      "userData": {
+        "gltfIndex": 17,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a72ab": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@a72ab",
+      "displayName": "",
+      "id": "a72ab",
+      "name": "UnnamedSkeleton-3.skeleton",
+      "userData": {
+        "gltfIndex": 3,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2224c": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@2224c",
+      "displayName": "",
+      "id": "2224c",
+      "name": "UnnamedSkeleton-4.skeleton",
+      "userData": {
+        "gltfIndex": 4,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d08b": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@7d08b",
+      "displayName": "",
+      "id": "7d08b",
+      "name": "UnnamedSkeleton-6.skeleton",
+      "userData": {
+        "gltfIndex": 6,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3253f": {
+      "importer": "gltf-material",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@3253f",
+      "displayName": "",
+      "id": "3253f",
+      "name": "Fighter.Final_Baked.001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "assetFinder": {
+      "meshes": [
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@41ac8",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@c6e33",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@ed341",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@17dd0",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@97b51",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@fd4a2",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@bdd91"
+      ],
+      "skeletons": [
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@30732",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@f1394",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@75ee4",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@a72ab",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@2224c",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@62756",
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@7d08b"
+      ],
+      "textures": [],
+      "materials": [
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@3253f"
+      ],
+      "scenes": [
+        "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@91732"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "animationImportSettings": [
+      {
+        "name": "Hook-Left",
+        "duration": 1.9833333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hook-Left",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "80a27"
+          }
+        ]
+      },
+      {
+        "name": "Hook-Right",
+        "duration": 1.9333332777023315,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hook-Right",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "2853a"
+          }
+        ]
+      },
+      {
+        "name": "Cross",
+        "duration": 1.7833333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cross",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "cd546"
+          }
+        ]
+      },
+      {
+        "name": "Jab",
+        "duration": 1.4166666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jab",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "14fd8"
+          }
+        ]
+      },
+      {
+        "name": "Idle",
+        "duration": 2.2833333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle",
+            "from": 0,
+            "to": 2.2833333015441895,
+            "wrapMode": 0,
+            "previousId": "c2696"
+          }
+        ]
+      },
+      {
+        "name": "Upercut",
+        "duration": 2.0333333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Upercut",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "607bc"
+          }
+        ]
+      },
+      {
+        "name": "Block-Right",
+        "duration": 2.75,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Block-Right",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "21054"
+          }
+        ]
+      },
+      {
+        "name": "Block-Center",
+        "duration": 2.799999952316284,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Block-Center",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "61b96"
+          }
+        ]
+      },
+      {
+        "name": "Block-Left",
+        "duration": 2.4666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Block-Left",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "cca92"
+          }
+        ]
+      },
+      {
+        "name": "Pivot-Right",
+        "duration": 1.2166666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Pivot-Right",
+            "from": 0,
+            "to": 1.2166666984558105,
+            "wrapMode": 0,
+            "previousId": "426e6"
+          }
+        ]
+      },
+      {
+        "name": "Pivot-Left",
+        "duration": 1.25,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Pivot-Left",
+            "from": 0,
+            "to": 1.25,
+            "wrapMode": 0,
+            "previousId": "2afb5"
+          }
+        ]
+      },
+      {
+        "name": "Dodge-Back",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Dodge-Back",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "42867"
+          }
+        ]
+      },
+      {
+        "name": "Dodge-Left",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Dodge-Left",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "e3cbe"
+          }
+        ]
+      },
+      {
+        "name": "Dodge-Right",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Dodge-Right",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "1d289"
+          }
+        ]
+      },
+      {
+        "name": "Hit-Jab",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hit-Jab",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "a50b0"
+          }
+        ]
+      },
+      {
+        "name": "Hit-Cross",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hit-Cross",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "048cf"
+          }
+        ]
+      },
+      {
+        "name": "Hit-Upercut",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hit-Upercut",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "6ab9e"
+          }
+        ]
+      },
+      {
+        "name": "Hit-Hook-Left",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hit-Hook-Left",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "34cae"
+          }
+        ]
+      },
+      {
+        "name": "Hit-Hook-Right",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hit-Hook-Right",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "85200"
+          }
+        ]
+      }
+    ]
+  }
+}

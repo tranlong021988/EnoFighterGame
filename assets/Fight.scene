@@ -402,7 +402,7 @@
       "__id__": 238
     },
     "MinFightTick": 0.5,
-    "MaxFightTick": 1,
+    "MaxFightTick": 0.8,
     "_id": "76MlrHi9VH5qFkxotGU6FZ"
   },
   {
@@ -5433,8 +5433,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@41ac8",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -5540,8 +5540,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@c6e33",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -5647,8 +5647,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@ed341",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -5754,8 +5754,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@17dd0",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -5861,8 +5861,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@97b51",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -5968,8 +5968,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@fd4a2",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -6075,8 +6075,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@bdd91",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -10182,8 +10182,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@41ac8",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -10289,8 +10289,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@c6e33",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -10396,8 +10396,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@ed341",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -10503,8 +10503,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@17dd0",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -10610,8 +10610,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@97b51",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -10717,8 +10717,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@fd4a2",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -10824,8 +10824,8 @@
       "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@bdd91",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_reflectionProbeId": -1,
@@ -11366,8 +11366,8 @@
   },
   {
     "__type__": "cc.ShadowsInfo",
-    "_enabled": false,
-    "_type": 0,
+    "_enabled": true,
+    "_type": 1,
     "_normal": {
       "__type__": "cc.Vec3",
       "x": 0,

@@ -1,5 +1,6 @@
-import { _decorator, Color, Component, Node, randomRange, RichText, tween, UITransform} from 'cc';
+import { _decorator, Color, Component, director, Director, game, Node, randomRange, RichText, tween, UITransform} from 'cc';
 import { Fighter } from './Fighter'; 
+import {TimeScale} from './TimeScaleManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -66,7 +67,8 @@ export class GameManager extends Component {
             this.fighterA.gameManager = this;
             this.fighterB.gameManager = this;
         // Thiết lập thông số cho TRẬN ĐẤU ĐẦU TIÊN
-        
+        TimeScale.init();
+       // TimeScale.setScale(0.2);
         this.setupNextMatchStats();
         this.startNewFight();
     }
@@ -97,12 +99,17 @@ export class GameManager extends Component {
         // Thiết lập chạy hàm Fight mỗi 0.5 giây
         this.FightTick = randomRange(this.MinFightTick,this.MaxFightTick);
         this.schedule(this.Fight, this.FightTick); 
+        
        //this.Fight();
     }
     
+    
+
+
     /**
      * Phương thức Cốt lõi: Mô phỏng 1 lượt đánh.
      */
+
     public Fight() {
        // 
        

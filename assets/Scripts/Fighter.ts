@@ -1,5 +1,6 @@
 import { MeshRenderer, Color, tween, Node, Material, Vec4,_decorator,Component,animation, randomRangeInt, Scheduler, Director, director, random, ValueType } from 'cc';
 import { GameManager } from './GameManager';
+import { TimeScale } from './TimeScaleManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('Fighter')
@@ -85,6 +86,7 @@ export class Fighter extends Component {
      * @returns Lượng máu bị mất.
      */
     start(): void {
+        TimeScale.init();
         this.animControl = this.node.getComponent(animation.AnimationController);
     }
     public takeDamage(damage: number): number {
@@ -151,7 +153,7 @@ export class Fighter extends Component {
                 material.setProperty( 'emissive', tempColor);
             }
         })
-        .start();
+       // .start();
     }
 
     // --- PHƯƠNG THỨC MỚI: TÍNH TOÁN CHỈ SỐ CHIẾN LỰC ---
@@ -337,6 +339,16 @@ export class Fighter extends Component {
         this.animControl.setValue("HitId", this.currentHitId);
        }
        
+    }
+    startSlowMotion(scale:number){
+        let rd = randomRangeInt(0,10);
+        if(rd==0){
+            TimeScale.setScale(scale);
+        }
+        
+    }
+    stopSlowMotion(){
+        TimeScale.setScale(1);
     }
     AnimEnd(){
        

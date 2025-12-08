@@ -67,7 +67,7 @@ export class GameManager extends Component {
             this.fighterA.gameManager = this;
             this.fighterB.gameManager = this;
         // Thiết lập thông số cho TRẬN ĐẤU ĐẦU TIÊN
-        TimeScale.init();
+       // TimeScale.init();
        // TimeScale.setScale(0.2);
         this.setupNextMatchStats();
         this.startNewFight();

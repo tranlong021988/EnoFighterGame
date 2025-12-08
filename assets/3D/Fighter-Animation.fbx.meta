@@ -39,18 +39,7 @@
           "from": 0,
           "to": 1.3333333333333333
         },
-        "events": [
-          {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
-          },
-          {
-            "frame": 1,
-            "func": "AnimEnd",
-            "params": []
-          }
-        ]
+        "events": []
       },
       "ver": "1.0.17",
       "imported": true,
@@ -141,7 +130,20 @@
           "from": 0,
           "to": 1.3166667222976685
         },
-        "events": []
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
       },
       "ver": "1.0.17",
       "imported": true,
@@ -308,13 +310,15 @@
         },
         "events": [
           {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
+            "frame": 0.26666666666666666,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
           },
           {
-            "frame": 1,
-            "func": "AnimEnd",
+            "frame": 0.4,
+            "func": "stopSlowMotion",
             "params": []
           }
         ]
@@ -342,13 +346,15 @@
         },
         "events": [
           {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
+            "frame": 0.26666666666666666,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
           },
           {
-            "frame": 1,
-            "func": "AnimEnd",
+            "frame": 0.4,
+            "func": "stopSlowMotion",
             "params": []
           }
         ]
@@ -376,13 +382,15 @@
         },
         "events": [
           {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
+            "frame": 0.26666666666666666,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
           },
           {
-            "frame": 1,
-            "func": "AnimEnd",
+            "frame": 0.4,
+            "func": "stopSlowMotion",
             "params": []
           }
         ]
@@ -410,13 +418,15 @@
         },
         "events": [
           {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
+            "frame": 0.26666666666666666,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
           },
           {
-            "frame": 1,
-            "func": "AnimEnd",
+            "frame": 0.4,
+            "func": "stopSlowMotion",
             "params": []
           }
         ]
@@ -467,13 +477,15 @@
         },
         "events": [
           {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
+            "frame": 0.26666666666666666,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
           },
           {
-            "frame": 1,
-            "func": "AnimEnd",
+            "frame": 0.4,
+            "func": "stopSlowMotion",
             "params": []
           }
         ]
@@ -499,18 +511,7 @@
           "from": 0,
           "to": 1.3333333333333333
         },
-        "events": [
-          {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
-          },
-          {
-            "frame": 1,
-            "func": "AnimEnd",
-            "params": []
-          }
-        ]
+        "events": []
       },
       "ver": "1.0.17",
       "imported": true,
@@ -533,18 +534,7 @@
           "from": 0,
           "to": 1.3333333333333333
         },
-        "events": [
-          {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
-          },
-          {
-            "frame": 1,
-            "func": "AnimEnd",
-            "params": []
-          }
-        ]
+        "events": []
       },
       "ver": "1.0.17",
       "imported": true,
@@ -683,13 +673,15 @@
         },
         "events": [
           {
-            "frame": 0.3333333333333333,
-            "func": "ResetCombatStateToIdle",
-            "params": []
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
           },
           {
-            "frame": 1,
-            "func": "AnimEnd",
+            "frame": 0.6666666666666666,
+            "func": "stopSlowMotion",
             "params": []
           }
         ]
@@ -715,7 +707,20 @@
           "from": 0,
           "to": 1.3166667222976685
         },
-        "events": []
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
       },
       "ver": "1.0.17",
       "imported": true,
@@ -738,7 +743,20 @@
           "from": 0,
           "to": 1.3166667222976685
         },
-        "events": []
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
       },
       "ver": "1.0.17",
       "imported": true,
@@ -761,7 +779,20 @@
           "from": 0,
           "to": 1.3166667222976685
         },
-        "events": []
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
       },
       "ver": "1.0.17",
       "imported": true,

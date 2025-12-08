@@ -94,9 +94,9 @@
       "lineWidth": 3,
       "baseColor": {
         "__type__": "cc.Color",
-        "r": 85,
-        "g": 85,
-        "b": 85,
+        "r": 70,
+        "g": 70,
+        "b": 70,
         "a": 255
       }
     },
@@ -107,6 +107,12 @@
         "g": 255,
         "b": 255,
         "a": 255
+      },
+      "colorScale": {
+        "__type__": "cc.Vec3",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.7
       },
       "specular": {
         "__type__": "cc.Color",

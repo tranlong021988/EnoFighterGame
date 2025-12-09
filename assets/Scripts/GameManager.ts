@@ -1,6 +1,6 @@
-import { _decorator, Color, Component, director, Director, game, Node, randomRange, RichText, tween, UITransform} from 'cc';
+import { _decorator, Color, Component, director, Director, game, macro, Node, randomRange, RichText, sys, tween, UITransform, view} from 'cc';
 import { Fighter } from './Fighter'; 
-import {TimeScale} from './TimeScaleManager';
+
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -57,6 +57,14 @@ export class GameManager extends Component {
     // --- KHỞI ĐỘNG VÀ QUẢN LÝ TRẬN ĐẤU ---
 
     start() {
+         if (sys.isBrowser) {
+            // 'landscape' is a valid argument for older versions (2.x)
+            // 'landscapeLeft' or 'landscapeRight' for precise control in newer versions (3.x)
+            if (view.setOrientation) {
+                view.setOrientation(macro.ORIENTATION_LANDSCAPE_LEFT); // Example for 3.x
+                // Or simply 'landscape' for 2.x compatibility
+            }
+        }
         if (!this.fighterA || !this.fighterB) {
            
             console.error("GameManager: Phải gán cả Fighter A và Fighter B!");

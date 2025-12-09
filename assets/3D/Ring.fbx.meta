@@ -93,7 +93,10 @@
       ]
     },
     "meshOptimize": {
-      "enable": true
+      "enable": true,
+      "vertexCache": true,
+      "vertexFetch": true,
+      "overdraw": true
     }
   }
 }

@@ -341,7 +341,7 @@ export class Fighter extends Component {
        
     }
     startSlowMotion(scale:number){
-        let rd = randomRangeInt(0,10);
+       let rd = randomRangeInt(0,10);
         if(rd==0){
             TimeScale.setScale(scale);
         }

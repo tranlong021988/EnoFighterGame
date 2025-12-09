@@ -11,7 +11,6 @@
   "_techIdx": 3,
   "_defines": [
     {
-      "USE_INSTANCING": true,
       "USE_TEXTURE": true
     },
     {}
@@ -39,22 +38,15 @@
   "_props": [
     {
       "mainTexture": {
-        "__uuid__": "9158245a-4aa1-4783-b2e5-33542b3fcd81@6c48a",
+        "__uuid__": "f6517b16-5a8a-4400-b6dc-c25a1ffa8998@6c48a",
         "__expectedType__": "cc.Texture2D"
-      },
-      "tilingOffset": {
-        "__type__": "cc.Vec4",
-        "x": 10,
-        "y": 3,
-        "z": 0,
-        "w": 0
       },
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 235,
-        "g": 209,
-        "b": 255,
-        "a": 255
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 128
       }
     },
     {}

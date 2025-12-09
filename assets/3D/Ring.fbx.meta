@@ -13,7 +13,7 @@
       "name": "Mesh.mesh",
       "userData": {
         "gltfIndex": 0,
-        "triangleCount": 15268
+        "triangleCount": 11148
       },
       "ver": "1.1.1",
       "imported": true,
@@ -91,6 +91,9 @@
       "scenes": [
         "96ddb72f-377d-46ad-84bf-2bbfa252602a@8841e"
       ]
+    },
+    "meshOptimize": {
+      "enable": true
     }
   }
 }

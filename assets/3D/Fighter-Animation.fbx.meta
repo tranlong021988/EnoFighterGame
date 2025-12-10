@@ -311,7 +311,7 @@
         "sample": 30,
         "span": {
           "from": 0,
-          "to": 1.3333333333333333
+          "to": 1.3166667222976685
         },
         "events": [
           {
@@ -1042,13 +1042,13 @@
     "animationImportSettings": [
       {
         "name": "Hook-Left",
-        "duration": 1.9833333492279053,
+        "duration": 1.3166667222976685,
         "fps": 30,
         "splits": [
           {
             "name": "Hook-Left",
             "from": 0,
-            "to": 1.3333333333333333,
+            "to": 1.3166667222976685,
             "wrapMode": 0,
             "previousId": "80a27"
           }

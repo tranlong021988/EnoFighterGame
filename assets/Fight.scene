@@ -193,7 +193,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -993,
+      "x": -993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -263,7 +263,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 1012,
+      "x": 1012.0000000000001,
       "y": 600,
       "z": 0
     },
@@ -405,7 +405,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -993,
+      "x": -993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -547,7 +547,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 993,
+      "x": 993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -693,7 +693,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 993,
+      "x": 993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -1027,7 +1027,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 2024,
+      "width": 2024.0000000000002,
       "height": 1200
     },
     "_anchorPoint": {
@@ -13820,7 +13820,7 @@
     "__prefab": null,
     "_materials": [
       {
-        "__uuid__": "3bc28370-0fb6-439f-91ea-6321d83e05e6",
+        "__uuid__": "ab2416ce-5d1c-4db9-8cf2-49de8574c206",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -13927,7 +13927,7 @@
     "__prefab": null,
     "_materials": [
       {
-        "__uuid__": "3bc28370-0fb6-439f-91ea-6321d83e05e6",
+        "__uuid__": "ab2416ce-5d1c-4db9-8cf2-49de8574c206",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -14034,7 +14034,7 @@
     "__prefab": null,
     "_materials": [
       {
-        "__uuid__": "3bc28370-0fb6-439f-91ea-6321d83e05e6",
+        "__uuid__": "ab2416ce-5d1c-4db9-8cf2-49de8574c206",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -14141,7 +14141,7 @@
     "__prefab": null,
     "_materials": [
       {
-        "__uuid__": "3bc28370-0fb6-439f-91ea-6321d83e05e6",
+        "__uuid__": "ab2416ce-5d1c-4db9-8cf2-49de8574c206",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -14248,7 +14248,7 @@
     "__prefab": null,
     "_materials": [
       {
-        "__uuid__": "3bc28370-0fb6-439f-91ea-6321d83e05e6",
+        "__uuid__": "ab2416ce-5d1c-4db9-8cf2-49de8574c206",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -14355,7 +14355,7 @@
     "__prefab": null,
     "_materials": [
       {
-        "__uuid__": "3bc28370-0fb6-439f-91ea-6321d83e05e6",
+        "__uuid__": "ab2416ce-5d1c-4db9-8cf2-49de8574c206",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -14462,7 +14462,7 @@
     "__prefab": null,
     "_materials": [
       {
-        "__uuid__": "3bc28370-0fb6-439f-91ea-6321d83e05e6",
+        "__uuid__": "ab2416ce-5d1c-4db9-8cf2-49de8574c206",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -16644,10 +16644,10 @@
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": -0.25881903746908413,
-      "y": -3.036634278019604e-8,
-      "z": -2.2539465665676483e-8,
-      "w": 0.9659258283344405
+      "x": -0.25881904510252,
+      "y": -3.036634260207307e-8,
+      "z": -2.253946590565301e-8,
+      "w": 0.9659258262890676
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -16659,7 +16659,7 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": -29.999999094415625,
+      "x": -30,
       "y": -0.000004029643985159147,
       "z": -0.0000015942051527080954
     },
@@ -16678,8 +16678,8 @@
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
-      "g": 241,
-      "b": 216,
+      "g": 226,
+      "b": 207,
       "a": 255
     },
     "_useColorTemperature": false,
@@ -16687,7 +16687,7 @@
     "_staticSettings": {
       "__id__": 831
     },
-    "_visibility": -325058561,
+    "_visibility": 1073741824,
     "_illuminanceHDR": 100000,
     "_illuminance": 100000,
     "_illuminanceLDR": 1.6927083333333335,
@@ -17359,7 +17359,7 @@
       "z": 0
     },
     "_distance": 0,
-    "_planeBias": 20,
+    "_planeBias": 1,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -17367,7 +17367,7 @@
       "b": 0,
       "a": 50
     },
-    "_maxReceived": 4,
+    "_maxReceived": 1,
     "_size": {
       "__type__": "cc.Vec2",
       "x": 1024,

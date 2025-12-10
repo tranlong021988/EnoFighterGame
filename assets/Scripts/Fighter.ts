@@ -1,4 +1,4 @@
-import { MeshRenderer, Color, tween, Node, Material, Vec4,_decorator,Component,animation, randomRangeInt, Scheduler, Director, director, random, ValueType } from 'cc';
+import { MeshRenderer, Color, tween, Node, Material, Vec4,_decorator,Component,animation, randomRangeInt, Scheduler, Director, director, random, ValueType, ParticleSystem } from 'cc';
 import { GameManager } from './GameManager';
 import { TimeScale } from './TimeScaleManager';
 const { ccclass, property } = _decorator;
@@ -69,6 +69,15 @@ export class Fighter extends Component {
         type: Number 
     })
     public currentHealth: number = 1000;
+    @property(ParticleSystem)
+    public leftTrail:ParticleSystem = null;
+    @property(ParticleSystem)
+    public rightTrail:ParticleSystem = null;
+    @property(ParticleSystem)
+    public hitDamageVFX:ParticleSystem;
+
+    private currentTrail:ParticleSystem;
+
     public competitor:Fighter = null!;
     public gameManager:GameManager = null!;
     private animControl:animation.AnimationController;
@@ -88,6 +97,28 @@ export class Fighter extends Component {
     start(): void {
         TimeScale.init();
         this.animControl = this.node.getComponent(animation.AnimationController);
+    }
+    public startHitDamageVFX(){
+        this.hitDamageVFX.play();
+        this.hitDamageVFX.node.children.forEach(child => {
+        let ps = child.getComponent(ParticleSystem); // Or cc.ParticleSystem for 3D
+        if (ps) {
+           // ps.playOnLoad = true; // Start if not set in editor
+            ps.play(); // If playOnLoad is false
+        }
+    });
+    }
+    public startTrail(trailNum:number){
+        if(trailNum==0){
+            this.currentTrail = this.leftTrail;
+        }else{
+            this.currentTrail = this.rightTrail;
+        }
+        
+        this.currentTrail?.play();
+    }
+    public stopTrail(){
+        this.currentTrail?.stopEmitting();
     }
     public takeDamage(damage: number): number {
         if (this.currentHealth <= 0) return 0;

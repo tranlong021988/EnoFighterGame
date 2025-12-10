@@ -139,6 +139,11 @@
             ]
           },
           {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
             "frame": 0.6666666666666666,
             "func": "stopSlowMotion",
             "params": []
@@ -317,8 +322,20 @@
             ]
           },
           {
+            "frame": 0.26666666666666666,
+            "func": "startTrail",
+            "params": [
+              0
+            ]
+          },
+          {
             "frame": 0.4,
             "func": "stopSlowMotion",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "stopTrail",
             "params": []
           }
         ]
@@ -346,10 +363,22 @@
         },
         "events": [
           {
+            "frame": 0.5,
+            "func": "stopTrail",
+            "params": []
+          },
+          {
             "frame": 0.26666666666666666,
             "func": "startSlowMotion",
             "params": [
               0.3
+            ]
+          },
+          {
+            "frame": 0.26666666666666666,
+            "func": "startTrail",
+            "params": [
+              1
             ]
           },
           {
@@ -389,8 +418,20 @@
             ]
           },
           {
+            "frame": 0.26666666666666666,
+            "func": "startTrail",
+            "params": [
+              1
+            ]
+          },
+          {
             "frame": 0.4,
             "func": "stopSlowMotion",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "stopTrail",
             "params": []
           }
         ]
@@ -425,8 +466,20 @@
             ]
           },
           {
+            "frame": 0.26666666666666666,
+            "func": "startTrail",
+            "params": [
+              0
+            ]
+          },
+          {
             "frame": 0.4,
             "func": "stopSlowMotion",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "stopTrail",
             "params": []
           }
         ]
@@ -484,8 +537,20 @@
             ]
           },
           {
+            "frame": 0.26666666666666666,
+            "func": "startTrail",
+            "params": [
+              0
+            ]
+          },
+          {
             "frame": 0.4,
             "func": "stopSlowMotion",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "stopTrail",
             "params": []
           }
         ]
@@ -680,6 +745,11 @@
             ]
           },
           {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
             "frame": 0.6666666666666666,
             "func": "stopSlowMotion",
             "params": []
@@ -714,6 +784,11 @@
             "params": [
               0.3
             ]
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
           },
           {
             "frame": 0.6666666666666666,
@@ -752,6 +827,11 @@
             ]
           },
           {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
             "frame": 0.6666666666666666,
             "func": "stopSlowMotion",
             "params": []
@@ -786,6 +866,11 @@
             "params": [
               0.3
             ]
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
           },
           {
             "frame": 0.6666666666666666,

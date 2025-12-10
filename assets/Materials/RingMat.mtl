@@ -50,12 +50,6 @@
       "mainTexture": {
         "__uuid__": "d12f7174-e8c1-45ba-8052-dd9a7ffc976b@6c48a",
         "__expectedType__": "cc.Texture2D"
-      },
-      "colorScale": {
-        "__type__": "cc.Vec3",
-        "x": 2,
-        "y": 1,
-        "z": 1
       }
     },
     {},

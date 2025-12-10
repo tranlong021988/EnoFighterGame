@@ -41,16 +41,16 @@
         "__id__": 816
       },
       {
-        "__id__": 828
+        "__id__": 829
       },
       {
-        "__id__": 834
+        "__id__": 835
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 847
+      "__id__": 848
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -81,7 +81,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 848
+      "__id__": 849
     },
     "_id": "41e74bc8-2834-4250-9204-5a21a93b57f4"
   },
@@ -16461,6 +16461,9 @@
       },
       {
         "__id__": 827
+      },
+      {
+        "__id__": 828
       }
     ],
     "removedComponents": []
@@ -16569,6 +16572,16 @@
     "value": true
   },
   {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 825
+    },
+    "propertyPath": [
+      "_shadowReceivingMode"
+    ],
+    "value": 1
+  },
+  {
     "__type__": "cc.Node",
     "_name": "TouringCamera",
     "_objFlags": 0,
@@ -16578,16 +16591,16 @@
     },
     "_children": [
       {
-        "__id__": 829
+        "__id__": 830
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 832
+        "__id__": 833
       },
       {
-        "__id__": 833
+        "__id__": 834
       }
     ],
     "_prefab": null,
@@ -16626,13 +16639,13 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
-      "__id__": 828
+      "__id__": 829
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 830
+        "__id__": 831
       }
     ],
     "_prefab": null,
@@ -16671,7 +16684,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 829
+      "__id__": 830
     },
     "_enabled": true,
     "__prefab": null,
@@ -16685,7 +16698,7 @@
     "_useColorTemperature": false,
     "_colorTemperature": 5000,
     "_staticSettings": {
-      "__id__": 831
+      "__id__": 832
     },
     "_visibility": 1073741824,
     "_illuminanceHDR": 100000,
@@ -16722,7 +16735,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 828
+      "__id__": 829
     },
     "_enabled": true,
     "__prefab": null,
@@ -16768,7 +16781,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 828
+      "__id__": 829
     },
     "_enabled": true,
     "__prefab": null,
@@ -16814,16 +16827,16 @@
     },
     "_children": [
       {
-        "__id__": 835
+        "__id__": 836
       },
       {
-        "__id__": 838
+        "__id__": 839
       },
       {
-        "__id__": 841
+        "__id__": 842
       },
       {
-        "__id__": 844
+        "__id__": 845
       }
     ],
     "_active": true,
@@ -16864,13 +16877,13 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
-      "__id__": 834
+      "__id__": 835
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 836
+        "__id__": 837
       }
     ],
     "_prefab": null,
@@ -16909,7 +16922,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 835
+      "__id__": 836
     },
     "_enabled": true,
     "__prefab": null,
@@ -16921,7 +16934,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 837
+      "__id__": 838
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
@@ -16964,13 +16977,13 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
-      "__id__": 834
+      "__id__": 835
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 839
+        "__id__": 840
       }
     ],
     "_prefab": null,
@@ -17009,7 +17022,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 838
+      "__id__": 839
     },
     "_enabled": true,
     "__prefab": null,
@@ -17021,7 +17034,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 840
+      "__id__": 841
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
@@ -17064,13 +17077,13 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
-      "__id__": 834
+      "__id__": 835
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 842
+        "__id__": 843
       }
     ],
     "_prefab": null,
@@ -17109,7 +17122,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 841
+      "__id__": 842
     },
     "_enabled": true,
     "__prefab": null,
@@ -17121,7 +17134,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 843
+      "__id__": 844
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
@@ -17164,13 +17177,13 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
-      "__id__": 834
+      "__id__": 835
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 845
+        "__id__": 846
       }
     ],
     "_prefab": null,
@@ -17209,7 +17222,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 844
+      "__id__": 845
     },
     "_enabled": true,
     "__prefab": null,
@@ -17221,7 +17234,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 846
+      "__id__": 847
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
@@ -17274,28 +17287,28 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 849
-    },
-    "shadows": {
       "__id__": 850
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 851
     },
-    "fog": {
+    "_skybox": {
       "__id__": 852
     },
-    "octree": {
+    "fog": {
       "__id__": 853
     },
-    "skin": {
+    "octree": {
       "__id__": 854
     },
-    "lightProbeInfo": {
+    "skin": {
       "__id__": 855
     },
-    "postSettings": {
+    "lightProbeInfo": {
       "__id__": 856
+    },
+    "postSettings": {
+      "__id__": 857
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false

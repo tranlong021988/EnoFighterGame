@@ -101,9 +101,9 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 230,
-        "g": 203,
-        "b": 187,
+        "r": 255,
+        "g": 227,
+        "b": 211,
         "a": 255
       },
       "specular": {
@@ -113,8 +113,9 @@
         "b": 35,
         "a": 80
       },
+      "baseStep": 0.7,
       "baseFeather": 0.07,
-      "shadeFeather": 0.2,
+      "shadeFeather": 0.1,
       "mainTexture": {
         "__uuid__": "73629f81-a458-4fbc-ad86-95c14eefa965@6c48a",
         "__expectedType__": "cc.Texture2D"

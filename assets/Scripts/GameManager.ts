@@ -45,10 +45,10 @@ export class GameManager extends Component {
     // --- CÁC THÔNG SỐ CƠ SỞ (BASE STATS) ---
     private readonly T_MAX: number = 100; // Số trận đấu tối đa (dùng để tính toán)
     private readonly BASE_STATS_A = {
-        strikeRate: 85, criticalRate: 30, basicDamage: 80, criticalDamage: 170, evasionRate: 50, flatDefense: 40
+        strikeRate: 85, criticalRate: 10, basicDamage: 80, criticalDamage: 170, evasionRate: 50, flatDefense: 40
     };
     private readonly BASE_STATS_B = {
-        strikeRate: 85, criticalRate: 30, basicDamage: 80, criticalDamage: 170, evasionRate: 50, flatDefense: 40
+        strikeRate: 85, criticalRate: 10, basicDamage: 80, criticalDamage: 170, evasionRate: 50, flatDefense: 40
     };
     private readonly BASE_HEALTH: number = 1000;
     private readonly MAX_HEALTH_INCREMENT: number = 1000; 
@@ -101,6 +101,7 @@ export class GameManager extends Component {
         console.log(`Fighter A (Máu: ${this.fighterA.maxHealth}): CR ${this.fighterA.getFinalCombatRating().toFixed(0)}`);
         console.log(`Fighter B (Máu: ${this.fighterB.maxHealth}): CR ${this.fighterB.getFinalCombatRating().toFixed(0)}`);
         console.log(`================================`);
+        this.fighterA.isTheOne = true;
         this.setupGameUI();
         this.updateGameUI();
 

@@ -78,6 +78,7 @@ export class Fighter extends Component {
     private criticalVFX:ParticleSystem = null;
     public isCriticalAttack:boolean = false;
     public hitByCriticalAttack:boolean = false;
+    public isTheOne:boolean = false;
 
     private currentTrail:ParticleSystem;
 
@@ -394,9 +395,13 @@ export class Fighter extends Component {
     }
     startSlowMotion(scale:number){
        let rd = randomRangeInt(0,10);
-        if(this.isCriticalAttack || this.hitByCriticalAttack){
-            TimeScale.setScale(scale);
-        }
+        //if(this.isTheOne){
+
+        
+            if((this.isCriticalAttack) || this.hitByCriticalAttack){
+                TimeScale.setScale(scale);
+            }
+       // }
         
     }
     stopSlowMotion(){

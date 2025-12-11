@@ -6178,10 +6178,7 @@
     "_renderMode": 0,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
-      "__expectedType__": "cc.Mesh"
-    },
+    "_mesh": null,
     "_cpuMaterial": {
       "__uuid__": "1fdee762-cee3-4a7d-986d-230a9607c187",
       "__expectedType__": "cc.Material"
@@ -8491,10 +8488,7 @@
     "_renderMode": 0,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
-      "__expectedType__": "cc.Mesh"
-    },
+    "_mesh": null,
     "_cpuMaterial": {
       "__uuid__": "1fdee762-cee3-4a7d-986d-230a9607c187",
       "__expectedType__": "cc.Material"
@@ -13557,10 +13551,7 @@
     "_renderMode": 0,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
-      "__expectedType__": "cc.Mesh"
-    },
+    "_mesh": null,
     "_cpuMaterial": {
       "__uuid__": "1fdee762-cee3-4a7d-986d-230a9607c187",
       "__expectedType__": "cc.Material"
@@ -15870,10 +15861,7 @@
     "_renderMode": 0,
     "_velocityScale": 1,
     "_lengthScale": 1,
-    "_mesh": {
-      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
-      "__expectedType__": "cc.Mesh"
-    },
+    "_mesh": null,
     "_cpuMaterial": {
       "__uuid__": "1fdee762-cee3-4a7d-986d-230a9607c187",
       "__expectedType__": "cc.Material"
@@ -17475,7 +17463,7 @@
     },
     "duration": 5,
     "loop": true,
-    "simulationSpeed": 1,
+    "simulationSpeed": 2,
     "playOnAwake": true,
     "gravityModifier": {
       "__id__": 933
@@ -18589,7 +18577,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 10,
+    "constant": 20,
     "multiplier": 1
   },
   {

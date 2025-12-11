@@ -8,7 +8,7 @@
     "__uuid__": "d1346436-ac96-4271-b863-1f4fdead95b0",
     "__expectedType__": "cc.EffectAsset"
   },
-  "_techIdx": 0,
+  "_techIdx": 3,
   "_defines": [
     {},
     {}
@@ -38,13 +38,6 @@
       "mainTexture": {
         "__uuid__": "ddb29a46-58e9-4d01-867c-cd0a248d4a9e@6c48a",
         "__expectedType__": "cc.Texture2D"
-      },
-      "tintColor": {
-        "__type__": "cc.Color",
-        "r": 255,
-        "g": 255,
-        "b": 255,
-        "a": 255
       }
     },
     {}

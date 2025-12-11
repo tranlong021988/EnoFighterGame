@@ -67,9 +67,9 @@
         "b": 20,
         "a": 255
       },
-      "worldScale": 0.05,
+      "worldScale": 0.08,
       "smoothMin": 0.3,
-      "smoothMax": 0.8
+      "smoothMax": 0.7
     },
     {}
   ]

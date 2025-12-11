@@ -11,5 +11,25 @@
   },
   "script": {
     "preserveSymlinks": true
+  },
+  "sorting-layer": {
+    "layers": [
+      {
+        "id": 0,
+        "name": "default",
+        "value": 0
+      },
+      {
+        "id": 1,
+        "name": "BG",
+        "value": 1
+      },
+      {
+        "id": 2,
+        "name": "FG",
+        "value": 2
+      }
+    ],
+    "increaseId": 2
   }
 }

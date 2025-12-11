@@ -32,12 +32,12 @@
       "id": "21054",
       "name": "Block-Right.animation",
       "userData": {
-        "gltfIndex": 6,
+        "gltfIndex": 15,
         "wrapMode": 0,
         "sample": 30,
         "span": {
           "from": 0,
-          "to": 1.3333333333333333
+          "to": 1.3166667222976685
         },
         "events": []
       },
@@ -72,7 +72,7 @@
       "id": "42867",
       "name": "Dodge-Back.animation",
       "userData": {
-        "gltfIndex": 11,
+        "gltfIndex": 6,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -123,7 +123,7 @@
       "id": "85200",
       "name": "Hit-Hook-Right.animation",
       "userData": {
-        "gltfIndex": 18,
+        "gltfIndex": 13,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -299,102 +299,6 @@
       ],
       "subMetas": {}
     },
-    "80a27": {
-      "importer": "gltf-animation",
-      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@80a27",
-      "displayName": "",
-      "id": "80a27",
-      "name": "Hook-Left.animation",
-      "userData": {
-        "gltfIndex": 0,
-        "wrapMode": 0,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 1.3166667222976685
-        },
-        "events": [
-          {
-            "frame": 0.26666666666666666,
-            "func": "startSlowMotion",
-            "params": [
-              0.3
-            ]
-          },
-          {
-            "frame": 0.26666666666666666,
-            "func": "startTrail",
-            "params": [
-              0
-            ]
-          },
-          {
-            "frame": 0.4,
-            "func": "stopSlowMotion",
-            "params": []
-          },
-          {
-            "frame": 0.5,
-            "func": "stopTrail",
-            "params": []
-          }
-        ]
-      },
-      "ver": "1.0.17",
-      "imported": true,
-      "files": [
-        ".cconb"
-      ],
-      "subMetas": {}
-    },
-    "2853a": {
-      "importer": "gltf-animation",
-      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@2853a",
-      "displayName": "",
-      "id": "2853a",
-      "name": "Hook-Right.animation",
-      "userData": {
-        "gltfIndex": 1,
-        "wrapMode": 0,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 1.3333333333333333
-        },
-        "events": [
-          {
-            "frame": 0.5,
-            "func": "stopTrail",
-            "params": []
-          },
-          {
-            "frame": 0.26666666666666666,
-            "func": "startSlowMotion",
-            "params": [
-              0.3
-            ]
-          },
-          {
-            "frame": 0.26666666666666666,
-            "func": "startTrail",
-            "params": [
-              1
-            ]
-          },
-          {
-            "frame": 0.4,
-            "func": "stopSlowMotion",
-            "params": []
-          }
-        ]
-      },
-      "ver": "1.0.17",
-      "imported": true,
-      "files": [
-        ".cconb"
-      ],
-      "subMetas": {}
-    },
     "cd546": {
       "importer": "gltf-animation",
       "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@cd546",
@@ -402,7 +306,7 @@
       "id": "cd546",
       "name": "Cross.animation",
       "userData": {
-        "gltfIndex": 2,
+        "gltfIndex": 0,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -450,7 +354,7 @@
       "id": "14fd8",
       "name": "Jab.animation",
       "userData": {
-        "gltfIndex": 3,
+        "gltfIndex": 1,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -498,7 +402,7 @@
       "id": "c2696",
       "name": "Idle.animation",
       "userData": {
-        "gltfIndex": 4,
+        "gltfIndex": 2,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -521,7 +425,7 @@
       "id": "607bc",
       "name": "Upercut.animation",
       "userData": {
-        "gltfIndex": 5,
+        "gltfIndex": 3,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -562,52 +466,6 @@
       ],
       "subMetas": {}
     },
-    "61b96": {
-      "importer": "gltf-animation",
-      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@61b96",
-      "displayName": "",
-      "id": "61b96",
-      "name": "Block-Center.animation",
-      "userData": {
-        "gltfIndex": 7,
-        "wrapMode": 0,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 1.3333333333333333
-        },
-        "events": []
-      },
-      "ver": "1.0.17",
-      "imported": true,
-      "files": [
-        ".cconb"
-      ],
-      "subMetas": {}
-    },
-    "cca92": {
-      "importer": "gltf-animation",
-      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@cca92",
-      "displayName": "",
-      "id": "cca92",
-      "name": "Block-Left.animation",
-      "userData": {
-        "gltfIndex": 8,
-        "wrapMode": 0,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 1.3333333333333333
-        },
-        "events": []
-      },
-      "ver": "1.0.17",
-      "imported": true,
-      "files": [
-        ".cconb"
-      ],
-      "subMetas": {}
-    },
     "426e6": {
       "importer": "gltf-animation",
       "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@426e6",
@@ -615,7 +473,7 @@
       "id": "426e6",
       "name": "Pivot-Right.animation",
       "userData": {
-        "gltfIndex": 9,
+        "gltfIndex": 4,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -638,7 +496,7 @@
       "id": "2afb5",
       "name": "Pivot-Left.animation",
       "userData": {
-        "gltfIndex": 10,
+        "gltfIndex": 5,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -661,7 +519,7 @@
       "id": "e3cbe",
       "name": "Dodge-Left.animation",
       "userData": {
-        "gltfIndex": 12,
+        "gltfIndex": 7,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -695,7 +553,7 @@
       "id": "1d289",
       "name": "Dodge-Right.animation",
       "userData": {
-        "gltfIndex": 13,
+        "gltfIndex": 8,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -729,7 +587,7 @@
       "id": "a50b0",
       "name": "Hit-Jab.animation",
       "userData": {
-        "gltfIndex": 14,
+        "gltfIndex": 9,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -770,7 +628,7 @@
       "id": "048cf",
       "name": "Hit-Cross.animation",
       "userData": {
-        "gltfIndex": 15,
+        "gltfIndex": 10,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -811,7 +669,7 @@
       "id": "6ab9e",
       "name": "Hit-Upercut.animation",
       "userData": {
-        "gltfIndex": 16,
+        "gltfIndex": 11,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -852,7 +710,7 @@
       "id": "34cae",
       "name": "Hit-Hook-Left.animation",
       "userData": {
-        "gltfIndex": 17,
+        "gltfIndex": 12,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -875,6 +733,148 @@
           {
             "frame": 0.6666666666666666,
             "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "61b96": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@61b96",
+      "displayName": "",
+      "id": "61b96",
+      "name": "Block-Center.animation",
+      "userData": {
+        "gltfIndex": 14,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "cca92": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@cca92",
+      "displayName": "",
+      "id": "cca92",
+      "name": "Block-Left.animation",
+      "userData": {
+        "gltfIndex": 16,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2853a": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@2853a",
+      "displayName": "",
+      "id": "2853a",
+      "name": "Hook-Right.animation",
+      "userData": {
+        "gltfIndex": 17,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": [
+          {
+            "frame": 0.5,
+            "func": "stopTrail",
+            "params": []
+          },
+          {
+            "frame": 0.26666666666666666,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
+          },
+          {
+            "frame": 0.26666666666666666,
+            "func": "startTrail",
+            "params": [
+              1
+            ]
+          },
+          {
+            "frame": 0.4,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "80a27": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@80a27",
+      "displayName": "",
+      "id": "80a27",
+      "name": "Hook-Left.animation",
+      "userData": {
+        "gltfIndex": 18,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3166667222976685
+        },
+        "events": [
+          {
+            "frame": 0.26666666666666666,
+            "func": "startSlowMotion",
+            "params": [
+              0.3
+            ]
+          },
+          {
+            "frame": 0.26666666666666666,
+            "func": "startTrail",
+            "params": [
+              0
+            ]
+          },
+          {
+            "frame": 0.4,
+            "func": "stopSlowMotion",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "stopTrail",
             "params": []
           }
         ]
@@ -1041,34 +1041,6 @@
     },
     "animationImportSettings": [
       {
-        "name": "Hook-Left",
-        "duration": 1.3166667222976685,
-        "fps": 30,
-        "splits": [
-          {
-            "name": "Hook-Left",
-            "from": 0,
-            "to": 1.3166667222976685,
-            "wrapMode": 0,
-            "previousId": "80a27"
-          }
-        ]
-      },
-      {
-        "name": "Hook-Right",
-        "duration": 1.9333332777023315,
-        "fps": 30,
-        "splits": [
-          {
-            "name": "Hook-Right",
-            "from": 0,
-            "to": 1.3333333333333333,
-            "wrapMode": 0,
-            "previousId": "2853a"
-          }
-        ]
-      },
-      {
         "name": "Cross",
         "duration": 1.7833333015441895,
         "fps": 30,
@@ -1121,48 +1093,6 @@
             "to": 1.3333333333333333,
             "wrapMode": 0,
             "previousId": "607bc"
-          }
-        ]
-      },
-      {
-        "name": "Block-Right",
-        "duration": 2.75,
-        "fps": 30,
-        "splits": [
-          {
-            "name": "Block-Right",
-            "from": 0,
-            "to": 1.3333333333333333,
-            "wrapMode": 0,
-            "previousId": "21054"
-          }
-        ]
-      },
-      {
-        "name": "Block-Center",
-        "duration": 2.799999952316284,
-        "fps": 30,
-        "splits": [
-          {
-            "name": "Block-Center",
-            "from": 0,
-            "to": 1.3333333333333333,
-            "wrapMode": 0,
-            "previousId": "61b96"
-          }
-        ]
-      },
-      {
-        "name": "Block-Left",
-        "duration": 2.4666666984558105,
-        "fps": 30,
-        "splits": [
-          {
-            "name": "Block-Left",
-            "from": 0,
-            "to": 1.3333333333333333,
-            "wrapMode": 0,
-            "previousId": "cca92"
           }
         ]
       },
@@ -1303,6 +1233,76 @@
             "to": 1.3166667222976685,
             "wrapMode": 0,
             "previousId": "85200"
+          }
+        ]
+      },
+      {
+        "name": "Block-Center",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Block-Center",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "61b96"
+          }
+        ]
+      },
+      {
+        "name": "Block-Right",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Block-Right",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "21054"
+          }
+        ]
+      },
+      {
+        "name": "Block-Left",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Block-Left",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "cca92"
+          }
+        ]
+      },
+      {
+        "name": "Hook-Right",
+        "duration": 1.9333332777023315,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hook-Right",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 0,
+            "previousId": "2853a"
+          }
+        ]
+      },
+      {
+        "name": "Hook-Left",
+        "duration": 1.3166667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hook-Left",
+            "from": 0,
+            "to": 1.3166667222976685,
+            "wrapMode": 0,
+            "previousId": "80a27"
           }
         ]
       }

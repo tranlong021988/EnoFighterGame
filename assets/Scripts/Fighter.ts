@@ -75,6 +75,9 @@ export class Fighter extends Component {
     public rightTrail:ParticleSystem = null;
     @property(ParticleSystem)
     public hitDamageVFX:ParticleSystem;
+    private criticalVFX:ParticleSystem = null;
+    public isCriticalAttack:boolean = false;
+    public hitByCriticalAttack:boolean = false;
 
     private currentTrail:ParticleSystem;
 
@@ -116,9 +119,24 @@ export class Fighter extends Component {
         }
         
         this.currentTrail?.play();
+        if(this.isCriticalAttack){
+            this.currentTrail?.node.children.forEach(child =>{
+                this.criticalVFX ??= child.getComponent(ParticleSystem); 
+                this.criticalVFX.play();
+            })
+        }
     }
     public stopTrail(){
         this.currentTrail?.stopEmitting();
+        if(this.isCriticalAttack){
+            this.isCriticalAttack = false;
+            this.currentTrail?.node.children.forEach(child =>{
+              //  this.criticalVFX ??= child.getComponent(ParticleSystem);
+                this.criticalVFX?.stopEmitting();
+                this.criticalVFX = null;
+            })
+        }
+        this.currentTrail = null;
     }
     public takeDamage(damage: number): number {
         if (this.currentHealth <= 0) return 0;
@@ -333,6 +351,9 @@ export class Fighter extends Component {
     
     public doDamage(){
         this.isAnimEnd = false;
+        if(this.competitor.isCriticalAttack){
+            this.hitByCriticalAttack = true;
+        }
       //  let options = [0,1];
          let competitorCombatState = this.competitor.animControl.getValue("CombatStateId"); //console.log(competitorCombatState);
       
@@ -373,13 +394,14 @@ export class Fighter extends Component {
     }
     startSlowMotion(scale:number){
        let rd = randomRangeInt(0,10);
-        if(rd==0){
+        if(this.isCriticalAttack || this.hitByCriticalAttack){
             TimeScale.setScale(scale);
         }
         
     }
     stopSlowMotion(){
         TimeScale.setScale(1);
+        this.hitByCriticalAttack = false;
     }
     AnimEnd(){
        

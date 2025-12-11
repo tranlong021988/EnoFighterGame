@@ -171,6 +171,8 @@ export class GameManager extends Component {
         
         if (isCritical) {
             rawDamage = attacker.criticalDamage;
+            attacker.isCriticalAttack = true;
+            
             hitType = 'CRITICAL HIT (Chí mạng)';
         } else {
             rawDamage = attacker.basicDamage;

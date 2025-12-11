@@ -193,7 +193,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -993,
+      "x": -993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -263,7 +263,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 1012,
+      "x": 1012.0000000000001,
       "y": 600,
       "z": 0
     },
@@ -349,7 +349,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 820.0689655172414,
+    "_orthoHeight": 600,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -405,7 +405,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -993,
+      "x": -993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -547,7 +547,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 993,
+      "x": 993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -693,7 +693,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 993,
+      "x": 993.0000000000001,
       "y": 554.025,
       "z": 0
     },
@@ -1027,7 +1027,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 2024,
+      "width": 2024.0000000000002,
       "height": 1200
     },
     "_anchorPoint": {
@@ -4997,10 +4997,10 @@
     "startLifetime": {
       "__id__": 168
     },
-    "duration": -1,
-    "loop": true,
+    "duration": 1,
+    "loop": false,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 169
     },
@@ -5068,16 +5068,16 @@
     },
     "colorMax": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 245,
-      "b": 255,
+      "r": 255,
+      "g": 214,
+      "b": 0,
       "a": 255
     }
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.1,
+    "constantMin": 0.2,
     "constantMax": 0.3,
     "multiplier": 1
   },
@@ -5146,7 +5146,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 20,
+    "constant": 30,
     "multiplier": 1
   },
   {
@@ -7310,10 +7310,10 @@
     "startLifetime": {
       "__id__": 305
     },
-    "duration": -1,
-    "loop": true,
+    "duration": 1,
+    "loop": false,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 306
     },
@@ -7381,16 +7381,16 @@
     },
     "colorMax": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 245,
-      "b": 255,
+      "r": 255,
+      "g": 214,
+      "b": 0,
       "a": 255
     }
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.1,
+    "constantMin": 0.2,
     "constantMax": 0.3,
     "multiplier": 1
   },
@@ -7459,7 +7459,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 20,
+    "constant": 30,
     "multiplier": 1
   },
   {
@@ -12257,10 +12257,10 @@
     "startLifetime": {
       "__id__": 632
     },
-    "duration": -1,
-    "loop": true,
+    "duration": 1,
+    "loop": false,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 633
     },
@@ -12328,16 +12328,16 @@
     },
     "colorMax": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 245,
-      "b": 255,
+      "r": 255,
+      "g": 214,
+      "b": 0,
       "a": 255
     }
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.1,
+    "constantMin": 0.2,
     "constantMax": 0.3,
     "multiplier": 1
   },
@@ -12406,7 +12406,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 20,
+    "constant": 30,
     "multiplier": 1
   },
   {
@@ -14570,10 +14570,10 @@
     "startLifetime": {
       "__id__": 769
     },
-    "duration": -1,
-    "loop": true,
+    "duration": 1,
+    "loop": false,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 770
     },
@@ -14641,16 +14641,16 @@
     },
     "colorMax": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 245,
-      "b": 255,
+      "r": 255,
+      "g": 214,
+      "b": 0,
       "a": 255
     }
   },
   {
     "__type__": "cc.CurveRange",
     "mode": 3,
-    "constantMin": 0.1,
+    "constantMin": 0.2,
     "constantMax": 0.3,
     "multiplier": 1
   },
@@ -14719,7 +14719,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 20,
+    "constant": 30,
     "multiplier": 1
   },
   {

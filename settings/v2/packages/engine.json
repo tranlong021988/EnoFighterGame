@@ -9,13 +9,13 @@
             "_value": true
           },
           "gfx-webgl": {
-            "_value": false
+            "_value": true
           },
           "gfx-webgl2": {
             "_value": true
           },
           "gfx-webgpu": {
-            "_value": true
+            "_value": false
           },
           "animation": {
             "_value": true
@@ -200,8 +200,8 @@
           "base",
           "custom-pipeline",
           "dragon-bones",
+          "gfx-webgl",
           "gfx-webgl2",
-          "gfx-webgpu",
           "graphics",
           "intersection-2d",
           "light-probe",

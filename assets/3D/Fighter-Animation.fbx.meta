@@ -15,7 +15,13 @@
     "__original-animation-16.cconb",
     "__original-animation-17.cconb",
     "__original-animation-18.cconb",
+    "__original-animation-19.cconb",
     "__original-animation-2.cconb",
+    "__original-animation-20.cconb",
+    "__original-animation-21.cconb",
+    "__original-animation-22.cconb",
+    "__original-animation-23.cconb",
+    "__original-animation-24.cconb",
     "__original-animation-3.cconb",
     "__original-animation-4.cconb",
     "__original-animation-5.cconb",
@@ -32,7 +38,7 @@
       "id": "21054",
       "name": "Block-Right.animation",
       "userData": {
-        "gltfIndex": 15,
+        "gltfIndex": 14,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -72,7 +78,7 @@
       "id": "42867",
       "name": "Dodge-Back.animation",
       "userData": {
-        "gltfIndex": 6,
+        "gltfIndex": 5,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -123,7 +129,7 @@
       "id": "85200",
       "name": "Hit-Hook-Right.animation",
       "userData": {
-        "gltfIndex": 13,
+        "gltfIndex": 12,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -395,29 +401,6 @@
       ],
       "subMetas": {}
     },
-    "c2696": {
-      "importer": "gltf-animation",
-      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@c2696",
-      "displayName": "",
-      "id": "c2696",
-      "name": "Idle.animation",
-      "userData": {
-        "gltfIndex": 2,
-        "wrapMode": 0,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 2.2833333015441895
-        },
-        "events": []
-      },
-      "ver": "1.0.17",
-      "imported": true,
-      "files": [
-        ".cconb"
-      ],
-      "subMetas": {}
-    },
     "607bc": {
       "importer": "gltf-animation",
       "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@607bc",
@@ -425,7 +408,7 @@
       "id": "607bc",
       "name": "Upercut.animation",
       "userData": {
-        "gltfIndex": 3,
+        "gltfIndex": 2,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -473,7 +456,7 @@
       "id": "426e6",
       "name": "Pivot-Right.animation",
       "userData": {
-        "gltfIndex": 4,
+        "gltfIndex": 3,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -496,7 +479,7 @@
       "id": "2afb5",
       "name": "Pivot-Left.animation",
       "userData": {
-        "gltfIndex": 5,
+        "gltfIndex": 4,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -519,7 +502,7 @@
       "id": "e3cbe",
       "name": "Dodge-Left.animation",
       "userData": {
-        "gltfIndex": 7,
+        "gltfIndex": 6,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -553,7 +536,7 @@
       "id": "1d289",
       "name": "Dodge-Right.animation",
       "userData": {
-        "gltfIndex": 8,
+        "gltfIndex": 7,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -587,7 +570,7 @@
       "id": "a50b0",
       "name": "Hit-Jab.animation",
       "userData": {
-        "gltfIndex": 9,
+        "gltfIndex": 8,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -628,7 +611,7 @@
       "id": "048cf",
       "name": "Hit-Cross.animation",
       "userData": {
-        "gltfIndex": 10,
+        "gltfIndex": 9,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -669,7 +652,7 @@
       "id": "6ab9e",
       "name": "Hit-Upercut.animation",
       "userData": {
-        "gltfIndex": 11,
+        "gltfIndex": 10,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -710,7 +693,7 @@
       "id": "34cae",
       "name": "Hit-Hook-Left.animation",
       "userData": {
-        "gltfIndex": 12,
+        "gltfIndex": 11,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -751,7 +734,7 @@
       "id": "61b96",
       "name": "Block-Center.animation",
       "userData": {
-        "gltfIndex": 14,
+        "gltfIndex": 13,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -774,7 +757,7 @@
       "id": "cca92",
       "name": "Block-Left.animation",
       "userData": {
-        "gltfIndex": 16,
+        "gltfIndex": 15,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -797,7 +780,7 @@
       "id": "2853a",
       "name": "Hook-Right.animation",
       "userData": {
-        "gltfIndex": 17,
+        "gltfIndex": 16,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -845,7 +828,7 @@
       "id": "80a27",
       "name": "Hook-Left.animation",
       "userData": {
-        "gltfIndex": 18,
+        "gltfIndex": 17,
         "wrapMode": 0,
         "sample": 30,
         "span": {
@@ -878,6 +861,257 @@
             "params": []
           }
         ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "c2696": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@c2696",
+      "displayName": "",
+      "id": "c2696",
+      "name": "Idle.animation",
+      "userData": {
+        "gltfIndex": 18,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.2833333015441895
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0a3c0": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@0a3c0",
+      "displayName": "",
+      "id": "0a3c0",
+      "name": "Death-Jab.animation",
+      "userData": {
+        "gltfIndex": 19,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.316666603088379
+        },
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.2
+            ]
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
+            "frame": 0.8333333333333334,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b1575": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@b1575",
+      "displayName": "",
+      "id": "b1575",
+      "name": "Death-Cross.animation",
+      "userData": {
+        "gltfIndex": 20,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.316666603088379
+        },
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.2
+            ]
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
+            "frame": 0.8333333333333334,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e384d": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@e384d",
+      "displayName": "",
+      "id": "e384d",
+      "name": "Death-Hook-Right.animation",
+      "userData": {
+        "gltfIndex": 21,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.7166666984558105
+        },
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.2
+            ]
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
+            "frame": 0.8333333333333334,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "5b6fe": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@5b6fe",
+      "displayName": "",
+      "id": "5b6fe",
+      "name": "Death-Hook-Left.animation",
+      "userData": {
+        "gltfIndex": 22,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.7166666984558105
+        },
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.2
+            ]
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
+            "frame": 0.8333333333333334,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "9b980": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@9b980",
+      "displayName": "",
+      "id": "9b980",
+      "name": "Death-Upercut.animation",
+      "userData": {
+        "gltfIndex": 23,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.316666603088379
+        },
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "startSlowMotion",
+            "params": [
+              0.2
+            ]
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "startHitDamageVFX",
+            "params": []
+          },
+          {
+            "frame": 0.8333333333333334,
+            "func": "stopSlowMotion",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e4391": {
+      "importer": "gltf-animation",
+      "uuid": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@e4391",
+      "displayName": "",
+      "id": "e4391",
+      "name": "Victory.animation",
+      "userData": {
+        "gltfIndex": 24,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.1500000953674316
+        },
+        "events": []
       },
       "ver": "1.0.17",
       "imported": true,
@@ -1065,20 +1299,6 @@
             "to": 1.3333333333333333,
             "wrapMode": 0,
             "previousId": "14fd8"
-          }
-        ]
-      },
-      {
-        "name": "Idle",
-        "duration": 2.2833333015441895,
-        "fps": 30,
-        "splits": [
-          {
-            "name": "Idle",
-            "from": 0,
-            "to": 2.2833333015441895,
-            "wrapMode": 0,
-            "previousId": "c2696"
           }
         ]
       },
@@ -1303,6 +1523,104 @@
             "to": 1.3166667222976685,
             "wrapMode": 0,
             "previousId": "80a27"
+          }
+        ]
+      },
+      {
+        "name": "Idle",
+        "duration": 2.2833333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle",
+            "from": 0,
+            "to": 2.2833333015441895,
+            "wrapMode": 0,
+            "previousId": "c2696"
+          }
+        ]
+      },
+      {
+        "name": "Death-Jab",
+        "duration": 3.316666603088379,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Death-Jab",
+            "from": 0,
+            "to": 3.316666603088379,
+            "wrapMode": 0,
+            "previousId": "0a3c0"
+          }
+        ]
+      },
+      {
+        "name": "Death-Cross",
+        "duration": 3.316666603088379,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Death-Cross",
+            "from": 0,
+            "to": 3.316666603088379,
+            "wrapMode": 0,
+            "previousId": "b1575"
+          }
+        ]
+      },
+      {
+        "name": "Death-Hook-Right",
+        "duration": 2.7166666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Death-Hook-Right",
+            "from": 0,
+            "to": 2.7166666984558105,
+            "wrapMode": 0,
+            "previousId": "e384d"
+          }
+        ]
+      },
+      {
+        "name": "Death-Hook-Left",
+        "duration": 2.7166666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Death-Hook-Left",
+            "from": 0,
+            "to": 2.7166666984558105,
+            "wrapMode": 0,
+            "previousId": "5b6fe"
+          }
+        ]
+      },
+      {
+        "name": "Death-Upercut",
+        "duration": 3.316666603088379,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Death-Upercut",
+            "from": 0,
+            "to": 3.316666603088379,
+            "wrapMode": 0,
+            "previousId": "9b980"
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "duration": 2.1500000953674316,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Victory",
+            "from": 0,
+            "to": 2.1500000953674316,
+            "wrapMode": 2,
+            "previousId": "e4391"
           }
         ]
       }

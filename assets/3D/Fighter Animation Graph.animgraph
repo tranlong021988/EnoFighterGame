@@ -12,19 +12,22 @@
     ],
     "_variables": {
       "CombatStateId": {
-        "__id__": 271
+        "__id__": 351
       },
       "BlockId": {
-        "__id__": 272
+        "__id__": 352
       },
       "DodgeId": {
-        "__id__": 273
+        "__id__": 353
       },
       "AttackId": {
-        "__id__": 274
+        "__id__": 354
       },
       "HitId": {
-        "__id__": 275
+        "__id__": 355
+      },
+      "DeathId": {
+        "__id__": 356
       }
     }
   },
@@ -73,29 +76,38 @@
       },
       {
         "__id__": 174
+      },
+      {
+        "__id__": 246
       }
     ],
     "_transitions": [
       {
-        "__id__": 246
+        "__id__": 318
       },
       {
-        "__id__": 247
+        "__id__": 319
       },
       {
-        "__id__": 252
+        "__id__": 324
       },
       {
-        "__id__": 257
+        "__id__": 329
       },
       {
-        "__id__": 262
+        "__id__": 334
       },
       {
-        "__id__": 265
+        "__id__": 337
       },
       {
-        "__id__": 268
+        "__id__": 340
+      },
+      {
+        "__id__": 343
+      },
+      {
+        "__id__": 348
       }
     ],
     "_entryState": {
@@ -136,8 +148,8 @@
       "name": "",
       "id": "17645896333480.8176614834193991",
       "clone": null,
-      "centerX": 52.33606753548736,
-      "centerY": -116.02708244016443
+      "centerX": 25.28688720761852,
+      "centerY": -98.81396768606608
     },
     "name": "Any"
   },
@@ -2469,7 +2481,7 @@
     "lhsBinding": {
       "__id__": 209
     },
-    "rhs": 4
+    "rhs": 3
   },
   {
     "__type__": "cc.animation.TCVariableBinding",
@@ -2811,6 +2823,808 @@
     "variableName": "HitId"
   },
   {
+    "__type__": "cc.animation.SubStateMachine",
+    "__editorExtras__": {
+      "name": "Death",
+      "id": "dbc40d15-66a6-4187-b1e3-d292236106f5",
+      "clone": null,
+      "centerX": -121.82010353753236,
+      "centerY": -171.0668994463618
+    },
+    "name": "Death",
+    "_components": [],
+    "_stateMachine": {
+      "__id__": 247
+    }
+  },
+  {
+    "__type__": "cc.animation.StateMachine",
+    "__editorExtras__": {
+      "name": "",
+      "id": "0a4b5bc3-a398-4b85-bbb4-5f513a401758",
+      "clone": null
+    },
+    "_states": [
+      {
+        "__id__": 248
+      },
+      {
+        "__id__": 249
+      },
+      {
+        "__id__": 250
+      },
+      {
+        "__id__": 251
+      },
+      {
+        "__id__": 255
+      },
+      {
+        "__id__": 259
+      },
+      {
+        "__id__": 263
+      },
+      {
+        "__id__": 267
+      }
+    ],
+    "_transitions": [
+      {
+        "__id__": 271
+      },
+      {
+        "__id__": 274
+      },
+      {
+        "__id__": 279
+      },
+      {
+        "__id__": 284
+      },
+      {
+        "__id__": 289
+      },
+      {
+        "__id__": 294
+      },
+      {
+        "__id__": 299
+      },
+      {
+        "__id__": 306
+      },
+      {
+        "__id__": 309
+      },
+      {
+        "__id__": 312
+      },
+      {
+        "__id__": 315
+      }
+    ],
+    "_entryState": {
+      "__id__": 248
+    },
+    "_exitState": {
+      "__id__": 249
+    },
+    "_anyState": {
+      "__id__": 250
+    }
+  },
+  {
+    "__type__": "cc.animation.State",
+    "__editorExtras__": {
+      "name": "",
+      "id": "503a80de-a5f9-4379-a3a5-463d553d68fe",
+      "clone": null,
+      "centerX": -398.61290322580646,
+      "centerY": -153.3548387096774
+    },
+    "name": "Entry"
+  },
+  {
+    "__type__": "cc.animation.State",
+    "__editorExtras__": {
+      "name": "",
+      "id": "7f974490-0036-4983-b03a-b6805438c8b4",
+      "clone": null,
+      "centerX": -151.99092741935476,
+      "centerY": 50.27721774193546
+    },
+    "name": "Exit"
+  },
+  {
+    "__type__": "cc.animation.State",
+    "__editorExtras__": {
+      "name": "",
+      "id": "820f7ea3-e907-4fc6-a52e-0009ff79fabf",
+      "clone": null,
+      "centerX": -413.4516129032258,
+      "centerY": -17.096774193548384
+    },
+    "name": "Any"
+  },
+  {
+    "__type__": "cc.animation.Motion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "482cffab-ff8e-42ea-bbae-4e098bf0b9bc",
+      "clone": null,
+      "centerX": -164.43548387096774,
+      "centerY": -124.46219758064515
+    },
+    "name": "Death-Cross",
+    "_components": [],
+    "motion": {
+      "__id__": 252
+    },
+    "speed": 1,
+    "speedMultiplier": "",
+    "speedMultiplierEnabled": false,
+    "transitionInEventBinding": {
+      "__id__": 253
+    },
+    "transitionOutEventBinding": {
+      "__id__": 254
+    }
+  },
+  {
+    "__type__": "cc.animation.ClipMotion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "207da070-6db0-4c09-8842-3ee950ac6d10",
+      "clone": null
+    },
+    "clip": {
+      "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@b1575",
+      "__expectedType__": "cc.AnimationClip"
+    }
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.Motion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "16a47653-62d2-4618-acbc-45b37d0a494c",
+      "clone": null,
+      "centerX": -167.5,
+      "centerY": -86.171875
+    },
+    "name": "Death-Hook-Left",
+    "_components": [],
+    "motion": {
+      "__id__": 256
+    },
+    "speed": 1,
+    "speedMultiplier": "",
+    "speedMultiplierEnabled": false,
+    "transitionInEventBinding": {
+      "__id__": 257
+    },
+    "transitionOutEventBinding": {
+      "__id__": 258
+    }
+  },
+  {
+    "__type__": "cc.animation.ClipMotion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "35348250-bd96-4019-8e4d-c04d398e97b2",
+      "clone": null
+    },
+    "clip": {
+      "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@5b6fe",
+      "__expectedType__": "cc.AnimationClip"
+    }
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.Motion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "cb684109-3438-4ea9-a2c3-e311aaf365ee",
+      "clone": null,
+      "centerX": -182.43548387096774,
+      "centerY": -160.72026209677418
+    },
+    "name": "Death-Jab",
+    "_components": [],
+    "motion": {
+      "__id__": 260
+    },
+    "speed": 1,
+    "speedMultiplier": "",
+    "speedMultiplierEnabled": false,
+    "transitionInEventBinding": {
+      "__id__": 261
+    },
+    "transitionOutEventBinding": {
+      "__id__": 262
+    }
+  },
+  {
+    "__type__": "cc.animation.ClipMotion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "cd38bc80-9b53-46ec-bca7-4d50a5da2bc0",
+      "clone": null
+    },
+    "clip": {
+      "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@0a3c0",
+      "__expectedType__": "cc.AnimationClip"
+    }
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.Motion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "4fe41d09-9858-4d62-a3d7-9fe289e66c31",
+      "clone": null,
+      "centerX": -167.5,
+      "centerY": -55.171875
+    },
+    "name": "Death-Hook-Right",
+    "_components": [],
+    "motion": {
+      "__id__": 264
+    },
+    "speed": 1,
+    "speedMultiplier": "",
+    "speedMultiplierEnabled": false,
+    "transitionInEventBinding": {
+      "__id__": 265
+    },
+    "transitionOutEventBinding": {
+      "__id__": 266
+    }
+  },
+  {
+    "__type__": "cc.animation.ClipMotion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "8cac21e3-43de-4b01-9388-a5c08650be4b",
+      "clone": null
+    },
+    "clip": {
+      "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@e384d",
+      "__expectedType__": "cc.AnimationClip"
+    }
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.Motion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "9d3494f7-12d1-47a5-806a-90444e7f24b9",
+      "clone": null,
+      "centerX": -153.14516129032256,
+      "centerY": -13.075100806451616
+    },
+    "name": "Death-Upercut",
+    "_components": [],
+    "motion": {
+      "__id__": 268
+    },
+    "speed": 1,
+    "speedMultiplier": "",
+    "speedMultiplierEnabled": false,
+    "transitionInEventBinding": {
+      "__id__": 269
+    },
+    "transitionOutEventBinding": {
+      "__id__": 270
+    }
+  },
+  {
+    "__type__": "cc.animation.ClipMotion",
+    "__editorExtras__": {
+      "name": "",
+      "id": "a98109d2-7086-4936-9135-645d3abe1e14",
+      "clone": null
+    },
+    "clip": {
+      "__uuid__": "d8fb7b0e-427a-49b5-b76f-be6af1f1197c@9b980",
+      "__expectedType__": "cc.AnimationClip"
+    }
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 248
+    },
+    "to": {
+      "__id__": 259
+    },
+    "conditions": [
+      {
+        "__id__": 272
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 273
+    },
+    "rhs": 0
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.AnimationTransition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 250
+    },
+    "to": {
+      "__id__": 259
+    },
+    "conditions": [
+      {
+        "__id__": 275
+      }
+    ],
+    "destinationStart": 0,
+    "relativeDestinationStart": false,
+    "startEventBinding": {
+      "__id__": 277
+    },
+    "endEventBinding": {
+      "__id__": 278
+    },
+    "duration": 0.3,
+    "relativeDuration": false,
+    "exitConditionEnabled": false,
+    "_exitCondition": 1
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 276
+    },
+    "rhs": 0
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationTransition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 250
+    },
+    "to": {
+      "__id__": 251
+    },
+    "conditions": [
+      {
+        "__id__": 280
+      }
+    ],
+    "destinationStart": 0,
+    "relativeDestinationStart": false,
+    "startEventBinding": {
+      "__id__": 282
+    },
+    "endEventBinding": {
+      "__id__": 283
+    },
+    "duration": 0.3,
+    "relativeDuration": false,
+    "exitConditionEnabled": false,
+    "_exitCondition": 1
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 281
+    },
+    "rhs": 1
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationTransition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 250
+    },
+    "to": {
+      "__id__": 255
+    },
+    "conditions": [
+      {
+        "__id__": 285
+      }
+    ],
+    "destinationStart": 0,
+    "relativeDestinationStart": false,
+    "startEventBinding": {
+      "__id__": 287
+    },
+    "endEventBinding": {
+      "__id__": 288
+    },
+    "duration": 0.3,
+    "relativeDuration": false,
+    "exitConditionEnabled": false,
+    "_exitCondition": 1
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 286
+    },
+    "rhs": 2
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationTransition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 250
+    },
+    "to": {
+      "__id__": 263
+    },
+    "conditions": [
+      {
+        "__id__": 290
+      }
+    ],
+    "destinationStart": 0,
+    "relativeDestinationStart": false,
+    "startEventBinding": {
+      "__id__": 292
+    },
+    "endEventBinding": {
+      "__id__": 293
+    },
+    "duration": 0.3,
+    "relativeDuration": false,
+    "exitConditionEnabled": false,
+    "_exitCondition": 1
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 291
+    },
+    "rhs": 3
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationTransition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 250
+    },
+    "to": {
+      "__id__": 267
+    },
+    "conditions": [
+      {
+        "__id__": 295
+      }
+    ],
+    "destinationStart": 0,
+    "relativeDestinationStart": false,
+    "startEventBinding": {
+      "__id__": 297
+    },
+    "endEventBinding": {
+      "__id__": 298
+    },
+    "duration": 0.3,
+    "relativeDuration": false,
+    "exitConditionEnabled": false,
+    "_exitCondition": 1
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 296
+    },
+    "rhs": 4
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationTransition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 250
+    },
+    "to": {
+      "__id__": 249
+    },
+    "conditions": [
+      {
+        "__id__": 300
+      },
+      {
+        "__id__": 302
+      }
+    ],
+    "destinationStart": 0,
+    "relativeDestinationStart": false,
+    "startEventBinding": {
+      "__id__": 304
+    },
+    "endEventBinding": {
+      "__id__": 305
+    },
+    "duration": 0.3,
+    "relativeDuration": false,
+    "exitConditionEnabled": false,
+    "_exitCondition": 1
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 1,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 301
+    },
+    "rhs": 4
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "CombatStateId"
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 303
+    },
+    "rhs": -1
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 248
+    },
+    "to": {
+      "__id__": 251
+    },
+    "conditions": [
+      {
+        "__id__": 307
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 308
+    },
+    "rhs": 1
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 248
+    },
+    "to": {
+      "__id__": 255
+    },
+    "conditions": [
+      {
+        "__id__": 310
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 311
+    },
+    "rhs": 2
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 248
+    },
+    "to": {
+      "__id__": 263
+    },
+    "conditions": [
+      {
+        "__id__": 313
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 314
+    },
+    "rhs": 3
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 248
+    },
+    "to": {
+      "__id__": 267
+    },
+    "conditions": [
+      {
+        "__id__": 316
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 317
+    },
+    "rhs": 4
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "DeathId"
+  },
+  {
     "__type__": "cc.animation.Transition",
     "__editorExtras__": null,
     "from": {
@@ -2832,16 +3646,16 @@
     },
     "conditions": [
       {
-        "__id__": 248
+        "__id__": 320
       }
     ],
     "destinationStart": 0,
     "relativeDestinationStart": false,
     "startEventBinding": {
-      "__id__": 250
+      "__id__": 322
     },
     "endEventBinding": {
-      "__id__": 251
+      "__id__": 323
     },
     "duration": 0.3,
     "relativeDuration": false,
@@ -2853,7 +3667,7 @@
     "operator": 0,
     "lhs": 0,
     "lhsBinding": {
-      "__id__": 249
+      "__id__": 321
     },
     "rhs": 1
   },
@@ -2881,16 +3695,16 @@
     },
     "conditions": [
       {
-        "__id__": 253
+        "__id__": 325
       }
     ],
     "destinationStart": 0,
     "relativeDestinationStart": false,
     "startEventBinding": {
-      "__id__": 255
+      "__id__": 327
     },
     "endEventBinding": {
-      "__id__": 256
+      "__id__": 328
     },
     "duration": 0.3,
     "relativeDuration": false,
@@ -2902,7 +3716,7 @@
     "operator": 0,
     "lhs": 0,
     "lhsBinding": {
-      "__id__": 254
+      "__id__": 326
     },
     "rhs": 2
   },
@@ -2930,16 +3744,16 @@
     },
     "conditions": [
       {
-        "__id__": 258
+        "__id__": 330
       }
     ],
     "destinationStart": 0,
     "relativeDestinationStart": false,
     "startEventBinding": {
-      "__id__": 260
+      "__id__": 332
     },
     "endEventBinding": {
-      "__id__": 261
+      "__id__": 333
     },
     "duration": 0.3,
     "relativeDuration": false,
@@ -2951,9 +3765,9 @@
     "operator": 0,
     "lhs": 0,
     "lhsBinding": {
-      "__id__": 259
+      "__id__": 331
     },
-    "rhs": 4
+    "rhs": 3
   },
   {
     "__type__": "cc.animation.TCVariableBinding",
@@ -2979,7 +3793,7 @@
     },
     "conditions": [
       {
-        "__id__": 263
+        "__id__": 335
       }
     ]
   },
@@ -2988,9 +3802,9 @@
     "operator": 1,
     "lhs": 0,
     "lhsBinding": {
-      "__id__": 264
+      "__id__": 336
     },
-    "rhs": 4
+    "rhs": 3
   },
   {
     "__type__": "cc.animation.TCVariableBinding",
@@ -3008,7 +3822,7 @@
     },
     "conditions": [
       {
-        "__id__": 266
+        "__id__": 338
       }
     ]
   },
@@ -3017,7 +3831,7 @@
     "operator": 1,
     "lhs": 0,
     "lhsBinding": {
-      "__id__": 267
+      "__id__": 339
     },
     "rhs": 2
   },
@@ -3037,7 +3851,7 @@
     },
     "conditions": [
       {
-        "__id__": 269
+        "__id__": 341
       }
     ]
   },
@@ -3046,7 +3860,7 @@
     "operator": 1,
     "lhs": 0,
     "lhsBinding": {
-      "__id__": 270
+      "__id__": 342
     },
     "rhs": 1
   },
@@ -3054,6 +3868,89 @@
     "__type__": "cc.animation.TCVariableBinding",
     "type": 3,
     "variableName": "CombatStateId"
+  },
+  {
+    "__type__": "cc.animation.AnimationTransition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 5
+    },
+    "to": {
+      "__id__": 246
+    },
+    "conditions": [
+      {
+        "__id__": 344
+      }
+    ],
+    "destinationStart": 0,
+    "relativeDestinationStart": false,
+    "startEventBinding": {
+      "__id__": 346
+    },
+    "endEventBinding": {
+      "__id__": 347
+    },
+    "duration": 0.3,
+    "relativeDuration": false,
+    "exitConditionEnabled": false,
+    "_exitCondition": 1
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 0,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 345
+    },
+    "rhs": 4
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "CombatStateId"
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.AnimationGraphEventBinding",
+    "methodName": ""
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "__editorExtras__": null,
+    "from": {
+      "__id__": 246
+    },
+    "to": {
+      "__id__": 6
+    },
+    "conditions": [
+      {
+        "__id__": 349
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.BinaryCondition",
+    "operator": 1,
+    "lhs": 0,
+    "lhsBinding": {
+      "__id__": 350
+    },
+    "rhs": 4
+  },
+  {
+    "__type__": "cc.animation.TCVariableBinding",
+    "type": 3,
+    "variableName": "CombatStateId"
+  },
+  {
+    "__type__": "cc.animation.PlainVariable",
+    "_type": 3,
+    "_value": 0
   },
   {
     "__type__": "cc.animation.PlainVariable",

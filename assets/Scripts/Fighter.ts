@@ -88,6 +88,7 @@ export class Fighter extends Component {
     private currentAttackId:number = -1;
     private currentBlockId:number = -1;
     private currentHitId:number = -1;
+    private currentDeathId:number = -1;
 
     private isAnimEnd:Boolean = false;
 
@@ -272,7 +273,7 @@ export class Fighter extends Component {
         this.animControl.setValue("CombatStateId",-1);
          this.animControl.setValue("AttackId",-1);
          this.animControl.setValue("HitId",-1);
-       
+         this.animControl.setValue("DeathId",-1);
 
         this.animControl.setValue("BlockId",-1);
         //let anim:animation.AnimationController =this.node.getComponent(animation.AnimationController);
@@ -286,8 +287,8 @@ export class Fighter extends Component {
         this.isAnimEnd = false;
         this.animControl.setValue("CombatStateId",-1);
          this.animControl.setValue("HitId",-1);
-         this.animControl.setValue("BlockId",-1);
-        
+         this.animControl.setValue("DeathId",-1);
+         this.animControl.setValue("BlockId",-1); 
         this.animControl.setValue("AttackId",-1);
        this.animControl.setValue("CombatStateId",2);
      //  this.animControl.setValue("BlockId",0);
@@ -385,11 +386,38 @@ export class Fighter extends Component {
         this.animControl.setValue("CombatStateId",-1);
         this.animControl.setValue("BlockId",-1);
         this.animControl.setValue("HitId",-1);
+        this.animControl.setValue("DeathId",-1);
         this.animControl.setValue("AttackId",-1);
-        this.animControl.setValue("CombatStateId",4);
+        this.animControl.setValue("CombatStateId",3);
         //let hitId = competitorAttackId;// this.getRandomValueFromArray(options,this.currentHitId).valueOf();
         this.currentHitId = competitorAttackId;
         this.animControl.setValue("HitId", this.currentHitId);
+       }
+       
+    }
+     public doDeath(){
+        this.isAnimEnd = false;
+        if(this.competitor.isCriticalAttack){
+            this.hitByCriticalAttack = true;
+        }
+      //  let options = [0,1];
+         let competitorCombatState = this.competitor.animControl.getValue("CombatStateId"); //console.log(competitorCombatState);
+      
+       // Nếu đối phương tấn công
+       
+       if(competitorCombatState==1){
+       // console.log("defense-----------------------------------------------");
+            let competitorAttackId:any = this.competitor.animControl.getValue("AttackId");
+            
+        this.animControl.setValue("CombatStateId",-1);
+        this.animControl.setValue("BlockId",-1);
+        this.animControl.setValue("HitId",-1);
+        this.animControl.setValue("DeathId",-1);
+        this.animControl.setValue("AttackId",-1);
+        this.animControl.setValue("CombatStateId",4);
+        //let hitId = competitorAttackId;// this.getRandomValueFromArray(options,this.currentHitId).valueOf();
+        this.currentDeathId = competitorAttackId;
+        this.animControl.setValue("DeathId", this.currentDeathId);
        }
        
     }
@@ -398,7 +426,7 @@ export class Fighter extends Component {
         //if(this.isTheOne){
 
         
-            if((this.isCriticalAttack) || this.hitByCriticalAttack){
+            if((this.isCriticalAttack) || this.hitByCriticalAttack || this.currentHealth==0){
                 TimeScale.setScale(scale);
             }
        // }

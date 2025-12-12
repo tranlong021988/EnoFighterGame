@@ -50,7 +50,7 @@ export class GameManager extends Component {
     private readonly BASE_STATS_B = {
         strikeRate: 85, criticalRate: 10, basicDamage: 80, criticalDamage: 170, evasionRate: 50, flatDefense: 40
     };
-    private readonly BASE_HEALTH: number = 1000;
+    private readonly BASE_HEALTH: number = 500;
     private readonly MAX_HEALTH_INCREMENT: number = 1000; 
 
     
@@ -130,8 +130,8 @@ export class GameManager extends Component {
             
             // Tự động setup trận tiếp theo nếu chưa đạt giới hạn
             if (this.currentMatchId < this.T_MAX) {
-                this.setupNextMatchStats();
-                this.startNewFight();
+               // this.setupNextMatchStats();
+               // this.startNewFight();
                 
             } else {
                 console.log(`Đã hoàn thành ${this.T_MAX} trận đấu!`);
@@ -202,7 +202,13 @@ export class GameManager extends Component {
             finalDamage = Math.max(0, finalDamage);
             
             defender.takeDamage(finalDamage);
-            defender.doDamage();
+            //console.log("defender health:----------------"+defender.currentHealth);
+            if(defender.currentHealth>0){
+                defender.doDamage();
+            }else{
+                console.log("dieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!");
+                defender.doDeath();
+            }
             console.log(`[LƯỢT #${this.currentMatchId}]: ${attacker.node.name} Tấn công (${hitType} Dmg: ${rawDamage.toFixed(0)} - Def: ${flatDefense.toFixed(0)}) => ${defender.node.name} Nhận **${finalDamage.toFixed(0)}** Sát thương. Máu còn: ${defender.currentHealth.toFixed(0)}`);
         }
         ////
